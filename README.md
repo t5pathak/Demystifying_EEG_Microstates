@@ -24,9 +24,9 @@ IMG_4
 IMG_5
 - The measure of global field power (GFP) corresponds to the spatial standard deviation, and it quantifies the amount of activity at each time point in the field considering the data from all recording electrodes simultaneously resulting in a reference-independent descriptor of the potential field. We use L1 norm to calculate the GFP peaks.
 IMG_6
-Where,
-K - number of channels
-V(t) - EEG state represented by a (K x 1) vector
+> Where,
+> K - number of channels
+> V(t) - EEG state represented by a (K x 1) vector
 
 # Analysis Algorithm
 {In most scenarios, number of EEG recording channels (Ns) >> number of microstates (Nµ) as with EEG microstates we are trying to represent an EEG time-series with the least possible number of states.}
@@ -40,10 +40,10 @@ V(t) - EEG state represented by a (K x 1) vector
 <p align="center">
     <img src="http://www.sciweavers.org/tex2img.php?eq=V_t%20%3D%20%5Csum_%7Bk%3D1%7D%5E%7BN_%5Cmu%7D%20a_%7Bkt%7D%20%5CGamma_k&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V_t = \sum_{k=1}^{N_\mu} a_{kt} \Gamma_k" width="115" height="56" />
 </p>
-Where,
-Vt = (Ns x 1) vector consisting of the scalp electric potential measurements 
-Γk = is the normalised Ns x 1 vector representing the kth microstate 
-akt = the kth microstate intensity at time instant t. 
+> Where,
+> Vt = (Ns x 1) vector consisting of the scalp electric potential measurements 
+> Γk = is the normalised Ns x 1 vector representing the kth microstate 
+> akt = the kth microstate intensity at time instant t. 
 
 - Moreover, every EEG state can only be represented by just one microstate i.e. in order to allow for non-overlapping microstates at each time instant t, all akt must be zero except for one. Therefore, at each time instant, the summation reduces to a single nonzero term, corresponding to a single active microstate.
 
