@@ -38,7 +38,7 @@ IMG_4
 IMG_5
 - The measure of global field power (GFP) corresponds to the spatial standard deviation, and it quantifies the amount of activity at each time point in the field considering the data from all recording electrodes simultaneously resulting in a reference-independent descriptor of the potential field. We use L1 norm to calculate the GFP peaks.
 <p align="center">
-    <img width="704" alt="6" src="https://user-images.githubusercontent.com/44245211/137904180-f090d353-09dd-441b-91f2-2097fdddbbe7.png" width="250">
+    <img width="704" alt="6" src="https://user-images.githubusercontent.com/44245211/137904180-f090d353-09dd-441b-91f2-2097fdddbbe7.png" width="100">
 </p>
 IMG_6
 > Where,<br />
