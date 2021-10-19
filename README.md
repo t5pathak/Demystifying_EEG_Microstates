@@ -50,7 +50,7 @@ spontaneous task-free resting EEG on average are in the range of 70 to 125 milli
 
 - In mathematical terms the final aim for microstate analysis is,
 <p align="center">
-    <img src="http://www.sciweavers.org/tex2img.php?eq=V_t%20%3D%20%5Csum_%7Bk%3D1%7D%5E%7BN_%5Cmu%7D%20a_%7Bkt%7D%20%5CGamma_k&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V_t = \sum_{k=1}^{N_\mu} a_{kt} \Gamma_k" width="115" height="56" />
+    <img width="168" alt="7" src="https://user-images.githubusercontent.com/44245211/137906292-42b6e13f-edcd-4cad-a51a-1ff9e633d0cd.png">
 </p>
 ~ Where,<br />
 ~ Vt = (Ns x 1) vector consisting of the scalp electric potential measurements <br />
@@ -61,13 +61,13 @@ spontaneous task-free resting EEG on average are in the range of 70 to 125 milli
 
 - Now, the above mentioned equation will not be able fit perfectly especially when (Ns >> Nµ) or when the EEG time series is long ie. we have many EEG states. Thus we add a term for error.
 <p align="center">
-    <img src="https://bit.ly/2Z1VsRU" align="center" border="0" alt="V_t = \sum_{k=1}^{N_\mu} a_{kt} \Gamma_k + E_t" width="153" height="56" />
+    <img width="211" alt="8" src="https://user-images.githubusercontent.com/44245211/137906296-3d56a344-947d-4332-b2f8-105552844795.png">
 </p>
 - The goal will be find microstates such that <br />
 1. Every EEG state will belong to only one microstate <br />
 2. The total error in the system will be minimum. The orthogonal squared distance between each measurement vector and microstate is computed. The higher the distance the higher the error.
 <p align="center">
-    <a href="https://www.codecogs.com/eqnedit.php?latex=d_{kt}^2&space;=&space;V_t'.V_t-(V_t.\Gamma&space;_k)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{kt}^2&space;=&space;V_t'.V_t-(V_t.\Gamma&space;_k)" title="d_{kt}^2 = V_t'.V_t-(V_t.\Gamma _k)" /></a>
+    <img width="233" alt="9" src="https://user-images.githubusercontent.com/44245211/137906300-de37fce7-3fee-4666-9242-4093e2313f1f.png">
 </p>
 - Let us assume we now have 32 electrodes and choose to classify them into 4 microstates. <br />
 1. We have a 32 dimension space, with every point a possible EEG state. Dimension of the EEG state here is 32x1.<br />
