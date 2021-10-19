@@ -7,6 +7,7 @@ spontaneous task-free resting EEG on average are in the range of 70 to 125 milli
 
 Pascual et al. Segmentation of brain electrical activity into microstates: model estimation and validation [[LINK]](https://ieeexplore.ieee.org/document/391164)<br />
 Microstate EEGlab toolbox: An introductory guide [[Tutorial Implementation]](https://www.biorxiv.org/content/10.1101/289850v1)
+Credits: The code was published in the Tutorial by Poulsen et al.
 
 
 # Analysis Methodologies 
