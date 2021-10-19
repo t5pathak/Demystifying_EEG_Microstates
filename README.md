@@ -10,19 +10,36 @@ spontaneous task-free resting EEG on average are in the range of 70 to 125 milli
 
 
 # Analysis Methodologies 
-IMG_1
+<p align="center">
+    <img width="854" alt="1" src="https://user-images.githubusercontent.com/44245211/137904136-d36ea876-4ac8-4d4d-8694-e1a029626b64.png">
+</p>
 - Consider this EEG time series with 32 electrodes sampled at every ‘x’ seconds. For this time series we have ‘x’ EEG states which are [32x1] vectors.
+<p align="center">
+    <img width="850" alt="2" src="https://user-images.githubusercontent.com/44245211/137904166-fec0e503-284a-4c17-8908-95c90a9e4e81.png">
+</p>
 IMG_2
 - We now have a topographical map corresponding the EEG states.
+<p align="center">
+    <img width="324" alt="3" src="https://user-images.githubusercontent.com/44245211/137904173-e4e4db49-d7a4-4ca0-b0eb-7bf6d7374f1f.png">
+</p>
 IMG_3
 - We start with choosing n (here = 4) random template maps. Then we use the k-means clustering algorithm to cluster or classify the EEG state maps into one of the n microstates.
+<p align="center">
+    <img width="855" alt="4" src="https://user-images.githubusercontent.com/44245211/137904176-c98e90ee-db60-4680-be03-4cb93a41d2be.png">
+</p>
 IMG_4
 - After the EEG states have been assigned to a microstate, we see the EEG time series also classified to different (n) microstates. Here we see only one channel data as the above series only shows the GFP
 
 ### Global Field Power
 - GFP (Global Field Power) - quantifies the amount of activity at each time point in the field considering the data from all recording electrodes simultaneously.
+<p align="center">
+    <img width="542" alt="5" src="https://user-images.githubusercontent.com/44245211/137904178-c1093303-c2fd-4a34-b638-ba174df0da7b.png">
+</p>
 IMG_5
 - The measure of global field power (GFP) corresponds to the spatial standard deviation, and it quantifies the amount of activity at each time point in the field considering the data from all recording electrodes simultaneously resulting in a reference-independent descriptor of the potential field. We use L1 norm to calculate the GFP peaks.
+<p align="center">
+    <img width="704" alt="6" src="https://user-images.githubusercontent.com/44245211/137904180-f090d353-09dd-441b-91f2-2097fdddbbe7.png">
+</p>
 IMG_6
 > Where,<br />
 > K - number of channels<br />
