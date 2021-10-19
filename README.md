@@ -36,9 +36,9 @@ spontaneous task-free resting EEG on average are in the range of 70 to 125 milli
 <p align="center">
     <img width="322" alt="6" src="https://user-images.githubusercontent.com/44245211/137905150-6ef1a994-0f47-4ab4-8ae4-dc503c5b19ea.png">
 </p>
->Where,<br />
->K - number of channels<br />
->V(t) - EEG state represented by a (K x 1) vector
+> Where,<br />
+> K - number of channels<br />
+> V(t) - EEG state represented by a (K x 1) vector
 
 # Analysis Algorithm
 {In most scenarios, number of EEG recording channels (Ns) >> number of microstates (Nµ) as with EEG microstates we are trying to represent an EEG time-series with the least possible number of states.}
