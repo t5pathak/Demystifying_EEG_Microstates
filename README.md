@@ -63,13 +63,13 @@ Microstate EEGlab toolbox: An introductory guide[[Tutorial Implementation]](http
 <p align="center">
     <img width="211" alt="8" src="https://user-images.githubusercontent.com/44245211/137906296-3d56a344-947d-4332-b2f8-105552844795.png">
 </p>
-- The goal will be find microstates such that <br />
+* The goal will be find microstates such that <br />
 1. Every EEG state will belong to only one microstate <br />
 2. The total error in the system will be minimum. The orthogonal squared distance between each measurement vector and microstate is computed. The higher the distance the higher the error.
 <p align="center">
     <img width="233" alt="9" src="https://user-images.githubusercontent.com/44245211/137906300-de37fce7-3fee-4666-9242-4093e2313f1f.png">
 </p>
-- Let us assume we now have 32 electrodes and choose to classify them into 4 microstates. <br />
+* Let us assume we now have 32 electrodes and choose to classify them into 4 microstates. <br />
 1. We have a 32 dimension space, with every point a possible EEG state. Dimension of the EEG state here is 32x1.<br />
 2. We randomly construct random vectors in the above mentioned space of unit length. The dimension of the microstate is 32x1.<br />
 3. We now use k-means algorithm which gives the 4 most optimal microstates; and classifies all EEG states into one of those microstates with the orthogonal squared distance (error) less than the threshold error which was set by the user.
