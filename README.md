@@ -5,8 +5,8 @@ EEG Microstates, also nicknamed as “the atoms of thought”, are transient, pa
 spontaneous task-free resting EEG on average are in the range of 70 to 125 milliseconds) - Patterned - Observable and noticeable
 - Quasi Stable - Global topography is fixed, but strength might vary and polarity invert.
 
-Pascual et al. Segmentation of brain electrical activity into microstates: model estimation and validation [[LINK]](https://ieeexplore.ieee.org/document/391164)<br />
-Microstate EEGlab toolbox: An introductory guide [[Tutorial Implementation]](https://www.biorxiv.org/content/10.1101/289850v1)
+Pascual et al. Segmentation of brain electrical activity into microstates: model estimation and validation [[LINK]](https://ieeexplore.ieee.org/document/391164)<br /><br />
+Microstate EEGlab toolbox: An introductory guide [[Tutorial Implementation]](https://www.biorxiv.org/content/10.1101/289850v1)<br />
 Credits: The code was published in the Tutorial by Poulsen et al.
 
 
