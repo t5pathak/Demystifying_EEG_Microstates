@@ -63,16 +63,16 @@ spontaneous task-free resting EEG on average are in the range of 70 to 125 milli
 <p align="center">
     <img src="https://bit.ly/2Z1VsRU" align="center" border="0" alt="V_t = \sum_{k=1}^{N_\mu} a_{kt} \Gamma_k + E_t" width="153" height="56" />
 </p>
-- The goal will be find microstates such that 
--   1. Every EEG state will belong to only one microstate
--   2. The total error in the system will be minimum. The orthogonal squared distance between each measurement vector and microstate is computed. The higher the distance the higher the error.
+- The goal will be find microstates such that <br />
+1. Every EEG state will belong to only one microstate <br />
+2. The total error in the system will be minimum. The orthogonal squared distance between each measurement vector and microstate is computed. The higher the distance the higher the error.
 <p align="center">
     <a href="https://www.codecogs.com/eqnedit.php?latex=d_{kt}^2&space;=&space;V_t'.V_t-(V_t.\Gamma&space;_k)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{kt}^2&space;=&space;V_t'.V_t-(V_t.\Gamma&space;_k)" title="d_{kt}^2 = V_t'.V_t-(V_t.\Gamma _k)" /></a>
 </p>
-- Let us assume we now have 32 electrodes and choose to classify them into 4 microstates. 
--   1. We have a 32 dimension space, with every point a possible EEG state. Dimension of the EEG state here is 32x1.
--   2. We randomly construct random vectors in the above mentioned space of unit length. The dimension of the microstate is 32x1.
--   3. We now use k-means algorithm which gives the 4 most optimal microstates; and classifies all EEG states into one of those microstates with the orthogonal squared distance (error) less than the threshold error which was set by the user.
+- Let us assume we now have 32 electrodes and choose to classify them into 4 microstates. <br />
+1. We have a 32 dimension space, with every point a possible EEG state. Dimension of the EEG state here is 32x1.<br />
+2. We randomly construct random vectors in the above mentioned space of unit length. The dimension of the microstate is 32x1.<br />
+3. We now use k-means algorithm which gives the 4 most optimal microstates; and classifies all EEG states into one of those microstates with the orthogonal squared distance (error) less than the threshold error which was set by the user.
 
 # Directory Structure
 - ```src``` folder contains the source code. 
