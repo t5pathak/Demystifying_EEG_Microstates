@@ -62,12 +62,6 @@ Let us assume we now have 32 electrodes and choose to classify them into 4 micro
 2. We randomly construct random vectors in the above mentioned space of unit length. The dimension of the microstate is 32x1.
 3. We now use k-means algorithm which gives the 4 most optimal microstates; and classifies all EEG states into one of those microstates with the orthogonal squared distance (error) less than the threshold error which was set by the user.
 
-
-
-# Result - (2,8) Microstates
-
-
-
 # Directory Structure
 - ```src``` folder contains the source code. 
 - ```img``` contains all the images to test the code on.
