@@ -49,7 +49,7 @@ Moreover, every EEG state can only be represented by just one microstate i.e. in
 
 Now, the above mentioned equation will not be able fit perfectly especially when (Ns >> Nµ) or when the EEG time series is long ie. we have many EEG states. Thus we add a term for error.
 <p align="center">
-    <img src="http://www.sciweavers.org/tex2img.php?eq=V_t%20%3D%20%5Csum_%7Bk%3D1%7D%5E%7BN_%5Cmu%7D%20a_%7Bkt%7D%20%5CGamma_k%20%2B%20E_t&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V_t = \sum_{k=1}^{N_\mu} a_{kt} \Gamma_k + E_t" width="153" height="56" />
+    <img src="https://bit.ly/2Z1VsRU" align="center" border="0" alt="V_t = \sum_{k=1}^{N_\mu} a_{kt} \Gamma_k + E_t" width="153" height="56" />
 </p>
 The goal will be find microstates such that 
 1. Every EEG state will belong to only one microstate
