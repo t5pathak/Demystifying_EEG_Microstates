@@ -55,7 +55,7 @@ The goal will be find microstates such that
 1. Every EEG state will belong to only one microstate
 2. The total error in the system will be minimum. The orthogonal squared distance between each measurement vector and microstate is computed. The higher the distance the higher the error.
 <p align="center">
-    <img src="http://www.sciweavers.org/tex2img.php?eq=d_%7Bkt%7D%5E2%20%3D%20V_t%27.V_t-%28V_t.%5CGamma%20_k%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="d_{kt}^2 = V_t'.V_t-(V_t.\Gamma _k)" width="169" height="25" />
+    <a href="https://www.codecogs.com/eqnedit.php?latex=d_{kt}^2&space;=&space;V_t'.V_t-(V_t.\Gamma&space;_k)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{kt}^2&space;=&space;V_t'.V_t-(V_t.\Gamma&space;_k)" title="d_{kt}^2 = V_t'.V_t-(V_t.\Gamma _k)" /></a>
 </p>
 Let us assume we now have 32 electrodes and choose to classify them into 4 microstates. 
 1. We have a 32 dimension space, with every point a possible EEG state. Dimension of the EEG state here is 32x1.
