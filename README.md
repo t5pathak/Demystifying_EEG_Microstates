@@ -77,7 +77,6 @@ Where,<br />
 
 # Directory Structure
 - ```src``` folder contains the source code. 
-- ```img``` contains all the images to test the code on.
  
 # Running the code
 Any changes which need to be made, must be made in the code block under the heading "Main" only
